@@ -1,0 +1,21 @@
+name: w_qrcode
+description: A Plug-in for dart, which help you scanning barcode and qrcode with android device.
+version: 0.1.0
+author: hookou <hookoubug@gmail.com>
+homepage: https://github.com/hookou/w_qrcode
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  test: ^1.5.1
+  test_coverage: ^0.2.0
+
+flutter:
+  plugin:
+    androidPackage: com.shinow.qrscan
+    pluginClass: QrscanPlugin
