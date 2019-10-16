@@ -6,7 +6,9 @@ A Flutter plugin to scanning. Ready for Android
 
 ## 权限：
 `<uses-permission android:name="android.permission.CAMERA" />`
+
 `<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>`
+
 `<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>`
 
 ## 安装

@@ -14,7 +14,7 @@
         android:id="@+id/viewfinder_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:inner_width="300dp"
+        app:inner_width="320dp"
         app:inner_height="200dp"
         app:inner_margintop="230dp"
         app:inner_corner_color="@color/scan_corner_color_blue"
