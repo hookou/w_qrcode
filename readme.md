@@ -17,7 +17,7 @@ Add this to your package's pubspec.yaml file:
 
 ```yaml
 dependencies:
- w_qrcode: ^0.1.1
+ w_qrcode: ^0.1.2
 ```
 
 ## 使用方式
