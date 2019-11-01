@@ -1,8 +1,17 @@
 #import "QrscanPlugin.h"
-#import <qrscan/qrscan-Swift.h>
 
 @implementation QrscanPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-  [SwiftQrscanPlugin registerWithRegistrar:registrar];
+  FlutterMethodChannel* channel = [FlutterMethodChannel
+      methodChannelWithName:@"qr_scan"
+            binaryMessenger:[registrar messenger]];
+  QrscanPlugin* instance = [[QrscanPlugin alloc] init];
+  [registrar addMethodCallDelegate:instance channel:channel];
 }
+
+- (void)handleMethodCall:(FlutterMethodCall*)call result:(FlutterResult)result {
+    result(FlutterMethodNotImplemented);
+}
+
+
 @end
